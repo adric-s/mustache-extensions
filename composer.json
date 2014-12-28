@@ -1,0 +1,20 @@
+{
+    "name": "adric-s/mustache-extensions",
+    "type": "library",
+    "description": "Extensions to the Mustache library",
+    "keywords": ["mustache", "template"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adric Schreuders",
+            "email": "adric@schreuders.org"
+        }
+    ],
+    "require": {
+        "mustache/mustache": "~2.5"
+    },
+    "autoload": {
+        "psr-4": { "Adric\\Mustache\\": "src/" }
+    }
+}
+
