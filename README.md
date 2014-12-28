@@ -37,7 +37,7 @@ $vars = array(
     'content' => 'about',
     'title' => 'About Us'
 );
-$partialLoader_>setVars($vars);
+$partialLoader->setVars($vars);
 $mustache->render('
     {{> header}}
     {{> content}}
